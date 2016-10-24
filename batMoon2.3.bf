@@ -1,0 +1,6 @@
+-[-[-<]>>+<]>-<<+++[>+++++++<-]>>>+>>-[<-->-------]<->++++++++>+>+++++>+>+++++>+>+++++++>+>+++++>+>+++++>+>++++++++>+>+>+>>+++[<++++++>-]<+>+>-->+>+>+ Sets counters for creation of the m's and spaces
+[<]>[[<+>>-[>]+[[<]>+[>]<+[<]>>>-]<<[->>+<<]>-]>-[->>>>+<<<<]>++] Adds the first counter plus two of the character at the second counter to the end of the current set of cells removes the first two counters on the list then repeats until it encounters a 254
+>>>[[-]<]>>>>[>]>>+>+++++++<<<<[<] Removes some excess cells then adds a 7 after the end of the set of cells
++<+<<+[[<]++++[>++++<-]>[<+[>]>[-<+>]<[<]>>-]>[>]++++++++++[>]>>>-[<]<<[<]<] Adds a newline every 16 characters until 7 newlines are added
+<[<]>->-<<<[-]++++++<+<+++[>++++++<-]+<++++[>++++++++<-]---<-[>+<-----]++<----[>+<----]--<-[>+<---]<-[>++<-----]++++<-[>+<---]++<-[>+<-------]---<----[>+<----]<--[>+<++++++]<+++++[>+++++<-]++++++ Removes some excess cells then sets indices for the locations of bats
+>[[[>]>[>]>>[-<<+>>]<<[<]<[<]>-]>[>]>[>]+++++++[>+++++++++<-]>-[->+>+>+<<<]++++[>>++++<<-]>>+<<<<[<]>[.>]>>[.>]<[<]>[-]>[-]>[-]<+[--<---[->]<]<[->+>+>+<<<]<<[[->>+<<]<]<] Loops through the indices replacing the spaces at each one with a bat then printing the set of cells then setting the bat back to spaces
